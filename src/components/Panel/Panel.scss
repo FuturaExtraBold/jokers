@@ -1,3 +1,5 @@
+@use "../../styles/mixins" as *;
+
 .panel {
   position: relative;
   display: flex;
@@ -5,8 +7,8 @@
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  border-radius: 80px;
-  margin-bottom: 60px;
+  border-radius: fluid(16px, 80px);
+  margin-bottom: fluid(16px, 60px);
   background-color: var(--color-grey);
 }
 
@@ -14,7 +16,7 @@
   position: relative;
   display: flex;
   width: 100%;
-  min-height: 260px;
+  min-height: fluid(60px, 260px);
   align-items: center;
   justify-content: center;
   background-color: var(--color-accent);
@@ -26,13 +28,13 @@
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  padding: 60px 120px 80px;
+  padding: fluid(20px, 60px) fluid(20px, 70px) fluid(24px, 80px);
 }
 
 .panel__body > *:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: fluid(12px, 30px);
 }
 
 .panel__section:not(:last-child) {
-  margin-bottom: 60px;
+  margin-bottom: fluid(20px, 60px);
 }

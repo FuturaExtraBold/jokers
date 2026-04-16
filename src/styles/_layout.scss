@@ -1,3 +1,5 @@
+@use "mixins" as *;
+
 .container {
   display: flex;
   width: 100%;
@@ -8,5 +10,5 @@
 }
 
 .container--padded {
-  padding: 0 80px;
+  padding-inline: fluid(16px, 80px);
 }

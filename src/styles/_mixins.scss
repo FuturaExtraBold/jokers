@@ -1,0 +1,24 @@
+@use "sass:math";
+
+/* stylelint-disable order/order */
+@function fluid($min, $max, $min-vw: 540px, $max-vw: 1920px) {
+  $slope: math.div($max - $min, $max-vw - $min-vw);
+  $intercept: $min - ($slope * $min-vw);
+
+  @return clamp(#{$min}, #{$intercept} + #{$slope * 100}vw, #{$max});
+}
+/* stylelint-enable order/order */
+
+@mixin fit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin responsive-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
