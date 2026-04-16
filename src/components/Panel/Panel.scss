@@ -26,9 +26,13 @@
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  padding: 60px 80px 80px;
+  padding: 60px 120px 80px;
 }
 
 .panel__body > *:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.panel__section:not(:last-child) {
+  margin-bottom: 60px;
 }
