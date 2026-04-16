@@ -1,0 +1,50 @@
+@font-face {
+  font-family: GothamCond;
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/gotham/GothamCond-Ultra.woff") format("woff");
+}
+
+@font-face {
+  font-family: GothamCond;
+  font-style: italic;
+  font-weight: 900;
+  src: url("/fonts/gotham/GothamCond-UltraItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: GothamCond;
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/gotham/GothamCond-XBlack.woff") format("woff");
+}
+
+@font-face {
+  font-family: GothamCond;
+  font-style: italic;
+  font-weight: 800;
+  src: url("/fonts/gotham/GothamCond-XBlackItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Akhand;
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/akhand/akhand-light.woff") format("woff");
+}
+
+@font-face {
+  font-family: Akhand;
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/akhand/akhand-extrabold.woff") format("woff");
+}
+
+:root {
+  --font-gotham: "GothamCond", sans-serif;
+  --font-akhand: "Akhand", sans-serif;
+  --font-gotham-ultra: 900;
+  --font-gotham-xblack: 800;
+  --font-akhand-light: 300;
+  --font-akhand-extrabold: 800;
+}
