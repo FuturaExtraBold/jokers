@@ -32,10 +32,22 @@ h2 {
 .body--list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+}
+
+.body--list-numbered {
+  padding-left: 100px;
+  list-style-type: decimal;
 }
 
 .body--accent {
   color: var(--color-accent);
+}
+
+.text-align--left {
+  text-align: left;
+}
+
+.text-align--center {
+  text-align: center;
 }
