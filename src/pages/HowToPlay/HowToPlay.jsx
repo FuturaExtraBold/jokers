@@ -5,6 +5,7 @@ import PanelObjectOfTheGame from "./PanelObjectOfTheGame.jsx";
 import PanelOnYourTurn from "./PanelOnYourTurn.jsx";
 import PanelRoundStructure from "./PanelRoundStructure.jsx";
 import PanelSettingUpTheGame from "./PanelSettingUpTheGame.jsx";
+import PanelSpecialCardRules from "./PanelSpecialCardRules.jsx";
 
 function HowToPlay() {
   return (
@@ -17,6 +18,7 @@ function HowToPlay() {
         <PanelRoundStructure />
         <PanelOnYourTurn />
         <PanelEndOfGame />
+        <PanelSpecialCardRules />
       </div>
     </div>
   );
