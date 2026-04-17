@@ -1,7 +1,10 @@
 import "./App.scss";
 
+import pie from "./assets/pie.png";
+import AccentImage from "./components/AccentImage/AccentImage.jsx";
 import Header from "./components/Header/Header.jsx";
 import Panel from "./components/Panel/Panel.jsx";
+import { fluid } from "./utils/fluid.js";
 
 function App() {
   return (
@@ -12,6 +15,15 @@ function App() {
           <Panel
             textAlign="center"
             title="OBJECT OF THE GAME"
+            images={
+              <AccentImage
+                src={pie}
+                alt=""
+                width={fluid(80, 373)}
+                top={fluid(20, 120)}
+                left={fluid(-18, -100)}
+              />
+            }
             body={
               <>
                 <p className="body">
@@ -104,7 +116,7 @@ function App() {
                       <span className="body--large">Poker Hand</span>
                     </li>
                     <li>
-                      •&nbsp; Any time you draw{" "}
+                      •&nbsp;Any time you draw{" "}
                       <span className="body--large body--accent">
                         Number Cards
                       </span>
@@ -133,7 +145,7 @@ function App() {
                   <h3>Hidden Cards (In Hand)</h3>
                   <ul className="body body--list">
                     <li>
-                      •&nbsp;{" "}
+                      •&nbsp;
                       <span className="body--large body--accent">
                         Trick Cards
                       </span>{" "}
@@ -146,7 +158,7 @@ function App() {
                       weapons and stay hidden in your hand
                     </li>
                     <li>
-                      •&nbsp;{" "}
+                      •&nbsp;
                       <span className="body--large">
                         <span className="body--accent">Trick Cards</span> stay
                         hidden until you play them
@@ -162,6 +174,34 @@ function App() {
                   </ul>
                 </div>
               </>
+            }
+          />
+          <Panel
+            title="ROUND STRUCTURE"
+            textAlign="center"
+            body={
+              <ul className="body body--list">
+                <li>
+                  •&nbsp;
+                  <span className="body--large">One game = Four rounds</span>
+                </li>
+                <li>
+                  •&nbsp;Each player takes{" "}
+                  <span className="body--large">one turn per round</span>
+                </li>
+                <li>
+                  •&nbsp;Turns go clockwise, starting with the{" "}
+                  <span className="body--large">youngest player</span>
+                </li>
+                <li>
+                  •&nbsp;The youngest player{" "}
+                  <span className="body--large">
+                    announces the start of each round
+                  </span>
+                  <br />
+                  <em>"Begin round two!...Round three!...Final Round!"</em>
+                </li>
+              </ul>
             }
           />
         </div>

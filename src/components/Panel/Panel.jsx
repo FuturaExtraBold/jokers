@@ -2,13 +2,16 @@ import "./Panel.scss";
 
 import PropTypes from "prop-types";
 
-function Panel({ title, body, textAlign }) {
+function Panel({ title, body, images, textAlign }) {
   return (
-    <div className={`panel ${textAlign ? `text-align--${textAlign}` : ""}`}>
-      <div className="panel__header">
-        <h2>{title}</h2>
+    <div className="panel-wrapper">
+      {images}
+      <div className={`panel ${textAlign ? `text-align--${textAlign}` : ""}`}>
+        <div className="panel__header">
+          <h2>{title}</h2>
+        </div>
+        <div className="panel__body">{body}</div>
       </div>
-      <div className="panel__body">{body}</div>
     </div>
   );
 }
@@ -16,6 +19,7 @@ function Panel({ title, body, textAlign }) {
 Panel.propTypes = {
   title: PropTypes.string.isRequired,
   body: PropTypes.node.isRequired,
+  images: PropTypes.node,
   textAlign: PropTypes.oneOf(["left", "center"]),
 };
 
