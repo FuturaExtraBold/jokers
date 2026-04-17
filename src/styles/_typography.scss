@@ -43,13 +43,9 @@ h3 {
   justify-content: center;
 }
 
-.body--list-numbered {
-  padding-left: fluid(20px, 80px);
-  list-style-type: decimal;
-}
-
 .body--accent {
   color: var(--color-accent);
+  font-weight: var(--font-akhand-extrabold);
 }
 
 .text-align--left {

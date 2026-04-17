@@ -6,24 +6,24 @@ function PanelSettingUpTheGame() {
       title="SETTING UP THE GAME"
       textAlign="left"
       body={
-        <ol className="body body--list body--list-numbered">
+        <ul className="body body--list">
           <li>
-            Remove Instructions + Rankings cards and{" "}
+            1. Remove Instructions + Rankings cards and{" "}
             <span className="body body--large">shuffle deck</span>
           </li>
           <li>
-            Each player{" "}
+            2. Each player{" "}
             <span className="body body--large">draws four (4) cards</span>
           </li>
           <li>
-            Place remaining cards face down as the{" "}
+            3. Place remaining cards face down as the{" "}
             <span className="body body--large">Draw Pile</span>
           </li>
           <li>
-            Flip top card over to create a{" "}
+            4. Flip top card over to create a{" "}
             <span className="body body--large">Discard Pile</span>
           </li>
-        </ol>
+        </ul>
       }
     />
   );

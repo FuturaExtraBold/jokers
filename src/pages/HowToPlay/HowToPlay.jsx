@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header.jsx";
 import PanelBuildingYourHand from "./PanelBuildingYourHand.jsx";
+import PanelEndOfGame from "./PanelEndOfGame.jsx";
 import PanelObjectOfTheGame from "./PanelObjectOfTheGame.jsx";
 import PanelOnYourTurn from "./PanelOnYourTurn.jsx";
 import PanelRoundStructure from "./PanelRoundStructure.jsx";
@@ -15,6 +16,7 @@ function HowToPlay() {
         <PanelBuildingYourHand />
         <PanelRoundStructure />
         <PanelOnYourTurn />
+        <PanelEndOfGame />
       </div>
     </div>
   );

@@ -17,13 +17,12 @@ function PanelBuildingYourHand() {
             <ul className="body body--list">
               <li>
                 •&nbsp;
-                <span className="body--large body--accent">Number Cards</span>{" "}
-                create your face-up{" "}
-                <span className="body--large">Poker Hand</span>
+                <span className="body--accent">Number Cards</span> create your
+                face-up <span className="body--large">Poker Hand</span>
               </li>
               <li>
                 •&nbsp;Any time you draw{" "}
-                <span className="body--large body--accent">Number Cards</span>
+                <span className="body--accent">Number Cards</span>
                 , add them to your
                 <br />
                 <span className="body--large">Poker Hand</span> by{" "}
@@ -34,7 +33,7 @@ function PanelBuildingYourHand() {
               <li>
                 •&nbsp;<span className="body--large">Poker Hands</span> are
                 revealed at the end (the{" "}
-                <span className="body--large body--accent">Showdown</span>)
+                <span className="body--accent">Showdown</span>)
               </li>
               <li>
                 •&nbsp;<span className="body--large">Poker Hands</span> are
@@ -49,10 +48,9 @@ function PanelBuildingYourHand() {
             <ul className="body body--list">
               <li>
                 •&nbsp;
-                <span className="body--large body--accent">Trick Cards</span>{" "}
-                and{" "}
-                <span className="body--large body--accent">Joker Cards</span>{" "}
-                are your secret
+                <span className="body--accent">Trick Cards</span> and{" "}
+                <span className="body--accent">Joker Cards</span> are your
+                secret
                 <br />
                 weapons and stay hidden in your hand
               </li>
@@ -65,8 +63,8 @@ function PanelBuildingYourHand() {
               </li>
               <li>
                 •&nbsp;
-                <span className="body--large body--accent">Joker Cards</span>{" "}
-                (Wild Cards) stay hidden until the end
+                <span className="body--accent">Joker Cards</span> (Wild Cards)
+                stay hidden until the end
               </li>
             </ul>
           </div>

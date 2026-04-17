@@ -21,7 +21,9 @@ function PanelRoundStructure() {
           </li>
           <li>
             •&nbsp;The youngest player{" "}
-            <span className="body--large">announces the start of each round</span>
+            <span className="body--large">
+              announces the start of each round
+            </span>
             <br />
             <em>"Begin round two!...Round three!...Final Round!"</em>
           </li>
