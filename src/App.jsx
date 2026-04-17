@@ -1,6 +1,6 @@
 import "./App.scss";
 
-import pie from "./assets/pie.png";
+import pie from "./assets/pie.webp";
 import AccentImage from "./components/AccentImage/AccentImage.jsx";
 import Header from "./components/Header/Header.jsx";
 import Panel from "./components/Panel/Panel.jsx";
@@ -8,7 +8,7 @@ import { fluid } from "./utils/fluid.js";
 
 function App() {
   return (
-    <div className="app">
+    <main className="app">
       <div className="container">
         <Header title="How to Play" />
         <div className="container container--padded">
@@ -206,7 +206,7 @@ function App() {
           />
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
