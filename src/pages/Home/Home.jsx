@@ -1,7 +1,9 @@
+import Hero from "./Hero/Hero";
+
 function Home() {
   return (
     <div className="container">
-      <h1>Home</h1>
+      <Hero />
     </div>
   );
 }

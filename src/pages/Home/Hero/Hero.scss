@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  gap: 40px;
+  text-align: center;
+}
+
+.hero__title {
+  color: var(--color-accent);
+  font-family: var(--font-gotham);
+  font-size: 242px;
+  font-weight: var(--font-gotham-ultra);
+  line-height: 0.8;
+}
+
+.hero__description {
+  color: var(--color-text-dark);
+  font-family: var(--font-akhand);
+  font-size: 80px;
+  font-weight: var(--font-akhand-semilight);
+  letter-spacing: -2px;
+}

@@ -2,7 +2,6 @@ import "./Header.scss";
 
 import PropTypes from "prop-types";
 
-
 function Header({ title }) {
   return (
     <div className="header">

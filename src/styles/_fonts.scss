@@ -1,48 +1,64 @@
 @font-face {
+  font-display: swap;
   font-family: GothamCond;
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url("/fonts/gotham/GothamCond-Ultra.woff") format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: GothamCond;
   font-style: italic;
   font-weight: 900;
-  font-display: swap;
   src: url("/fonts/gotham/GothamCond-UltraItalic.woff") format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: GothamCond;
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
   src: url("/fonts/gotham/GothamCond-XBlack.woff") format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: GothamCond;
   font-style: italic;
   font-weight: 800;
-  font-display: swap;
   src: url("/fonts/gotham/GothamCond-XBlackItalic.woff") format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: Akhand;
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
   src: url("/fonts/akhand/akhand-light.woff") format("woff");
 }
 
 @font-face {
+  font-display: swap;
+  font-family: Akhand;
+  font-style: normal;
+  font-weight: 350;
+  src: url("/fonts/akhand/akhand-semilight.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Akhand;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/akhand/akhand-regular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
   font-family: Akhand;
   font-style: normal;
   font-weight: 800;
-  font-display: swap;
   src: url("/fonts/akhand/akhand-extrabold.woff") format("woff");
 }
 
@@ -52,5 +68,7 @@
   --font-gotham-ultra: 900;
   --font-gotham-xblack: 800;
   --font-akhand-light: 300;
+  --font-akhand-semilight: 350;
+  --font-akhand-regular: 400;
   --font-akhand-extrabold: 800;
 }
