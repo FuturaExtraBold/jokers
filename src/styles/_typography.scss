@@ -3,7 +3,7 @@
 h1 {
   color: var(--color-header);
   font-family: var(--font-gotham);
-  font-size: fluid(52px, 300px);
+  font-size: fluid(48px, 216px);
   font-weight: var(--font-gotham-xblack);
   text-transform: uppercase;
 }
@@ -11,7 +11,7 @@ h1 {
 h2 {
   color: var(--color-header);
   font-family: var(--font-gotham);
-  font-size: fluid(34px, 170px);
+  font-size: fluid(32px, 120px);
   font-weight: var(--font-gotham-ultra);
   text-transform: uppercase;
 }
@@ -19,14 +19,14 @@ h2 {
 h3 {
   color: var(--color-header);
   font-family: var(--font-akhand);
-  font-size: fluid(24px, 110px);
+  font-size: fluid(24px, 80px);
   font-weight: var(--font-akhand-extrabold);
 }
 
 .body {
   color: var(--color-body);
   font-family: var(--font-akhand);
-  font-size: fluid(22px, 80px);
+  font-size: fluid(22px, 56px);
   font-weight: var(--font-akhand-light);
   line-height: 1.1;
   text-wrap: initial;
