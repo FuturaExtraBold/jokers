@@ -32,6 +32,14 @@
 
 @font-face {
   font-display: swap;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/gotham/Gotham-Ultra.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
   font-family: Akhand;
   font-style: normal;
   font-weight: 300;
@@ -63,10 +71,12 @@
 }
 
 :root {
+  --font-gotham-standard: "Gotham", sans-serif;
+  --font-gotham-standard-ultra: 900;
   --font-gotham: "GothamCond", sans-serif;
-  --font-akhand: "Akhand", sans-serif;
   --font-gotham-ultra: 900;
   --font-gotham-xblack: 800;
+  --font-akhand: "Akhand", sans-serif;
   --font-akhand-light: 300;
   --font-akhand-semilight: 350;
   --font-akhand-regular: 400;
