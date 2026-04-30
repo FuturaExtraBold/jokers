@@ -1,7 +1,8 @@
 import CTA from "../../components/CTA/CTA";
-import FunnyBusiness from "./FunnyBusiness/FunnyBusiness";
+import BigReveal from "./BigReveal";
+import FunnyBusiness from "./FunnyBusiness";
 import Hero from "./Hero/Hero";
-import PunchedUp from "./PunchedUp/PunchedUp";
+import PunchedUp from "./PunchedUp";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       />
       <FunnyBusiness />
       <PunchedUp />
+      <BigReveal />
     </div>
   );
 }

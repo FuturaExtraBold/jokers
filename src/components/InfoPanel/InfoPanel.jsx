@@ -14,7 +14,7 @@ const InfoPanel = ({ title, body, rtl }) => {
 };
 
 InfoPanel.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.node.isRequired,
   body: PropTypes.node.isRequired,
   rtl: PropTypes.bool,
 };
