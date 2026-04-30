@@ -1,0 +1,41 @@
+@use "../../styles/mixins" as *;
+
+.info-panel-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 80px;
+  gap: 1rem;
+}
+
+.info-panel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 72px;
+  border-radius: fluid(32px, 80px);
+  margin-bottom: fluid(16px, 48px);
+  background-color: var(--color-grey);
+}
+
+.info-panel--rtl {
+  flex-direction: row-reverse;
+}
+
+.info-panel__title {
+  font-size: fluid(64px, 120px);
+  line-height: 0.8;
+}
+
+.info-panel__text {
+  display: flex;
+  max-width: 70%;
+  flex-direction: column;
+  color: var(--color-body);
+  gap: 32px;
+  text-align: center;
+}
